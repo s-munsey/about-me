@@ -1,0 +1,39 @@
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--font-header);
+}
+
+.name span {
+  font-family: var(--font-main);
+  font-size: 4rem;
+  color: var(--ltblue);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+}
+
+#contact {
+  text-align: center;
+  background-color: var(--dkblue);
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact h3 {
+  color: var(--cream);
+  font-size: 2rem;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
