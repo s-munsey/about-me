@@ -1,0 +1,35 @@
+footer {
+  font-family: var(--font-header);
+  font-size: 80%;
+  padding: 4rem 0;
+}
+
+footer h1 a {
+  font-family: var(--font-main);
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+footer a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+footer a:hover {
+  color: var(--ltblue);
+}

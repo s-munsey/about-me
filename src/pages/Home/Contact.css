@@ -1,0 +1,14 @@
+#contact {
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact h3 {
+  color: var(--cream);
+  font-size: 2rem;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}

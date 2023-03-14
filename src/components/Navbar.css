@@ -33,25 +33,13 @@ nav li:first-child {
 }
 
 nav a {
-  color: var(--white);
+  color: var(--cream);
   text-decoration: none;
   display: block;
 }
 
 nav a:hover {
-  color: var(--ltblue);
-}
-
-nav .button {
-  background-color: var(--cream);
-  padding: 0.3rem;
-  border-radius: 5px;
-  color: var(--black);
-}
-
-nav .button:hover {
-  color: var(--ltblue);
-  background-color: var(--dkblue);
+  color: var(--white);
 }
 
 @media (min-width: 850px) {
