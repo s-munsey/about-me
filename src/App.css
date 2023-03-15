@@ -12,10 +12,12 @@
 
 .section-white {
   background-color: var(--white);
+  color: var(--black);
 }
 
 .section-cream {
   background-color: var(--cream);
+  color: var(--black);
 }
 
 .gradient {
