@@ -12,7 +12,6 @@ const Home = () => {
       <Projects />
       <div className="gradient"></div>
       <Contact />
-      <div className="gradient"></div>
     </>
   );
 };

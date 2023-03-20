@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,19 +9,16 @@ const Navbar = () => {
       <ul>
         <li>
           <h1>
-            <a href="/">
+            <Link to="/">
               <FontAwesomeIcon icon={["fas", "hashtag"]} /> Shaun Munsey
-            </a>
+            </Link>
           </h1>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <Link to="/#projects">Projects</Link>
         </li>
         <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/smunsey">
@@ -35,7 +33,12 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#todo" className="button">
+          <a
+            href="https://drive.google.com/file/d/1WxdDyz7EMEwPR1qYsXwGqpFTc8momdSN/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
             Resume
           </a>
         </li>
