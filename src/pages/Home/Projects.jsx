@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
         <article>
           <h4>Current Project</h4>
           <h3>Bookshelf</h3>
-          <p>
+          <p className="blackbox">
             I love to read, so I'm working on an application, using the open
             library api, that can track the books you have, your reading
             progress, and how many books you've read each year. You can follow
@@ -20,7 +21,7 @@ const Projects = () => {
             <li>Node</li>
             <li>TypeScript</li>
           </ul>
-          <img src="" />
+          <img src={require("./../../assets/wip.png")} />
         </article>
         <article>
           <h4>App I published</h4>
