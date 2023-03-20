@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.b35666d6.css",
+    "main.js": "/react-gh-pages/static/js/main.ff2e8990.js",
+    "static/js/787.bf6be429.chunk.js": "/react-gh-pages/static/js/787.bf6be429.chunk.js",
+    "static/media/me.jpg": "/react-gh-pages/static/media/me.e8b0b07214c2ddd908a8.jpg",
+    "static/media/wip.png": "/react-gh-pages/static/media/wip.2b26f16aedddb9f1294a.png",
+    "static/media/annsq.jpg": "/react-gh-pages/static/media/annsq.55ef2674ff4c89f60ac6.jpg",
+    "static/media/pomo_previewsq.png": "/react-gh-pages/static/media/pomo_previewsq.0d2af677ec947e165b99.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.b35666d6.css.map": "/react-gh-pages/static/css/main.b35666d6.css.map",
+    "main.ff2e8990.js.map": "/react-gh-pages/static/js/main.ff2e8990.js.map",
+    "787.bf6be429.chunk.js.map": "/react-gh-pages/static/js/787.bf6be429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35666d6.css",
+    "static/js/main.ff2e8990.js"
+  ]
+}
