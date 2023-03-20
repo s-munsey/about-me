@@ -14,7 +14,8 @@ const Projects = () => {
               I love to read, so I'm working on an application, using the open
               library api, that can track the books you have, your reading
               progress, and how many books you've read each year. You can follow
-              its progress <a href="../../assets/">here</a>.
+              its progress{" "}
+              <a href="https://github.com/s-munsey/Backend">here</a>.
             </p>
             <h4>Technologies used include:</h4>
             <ul>
@@ -56,7 +57,8 @@ const Projects = () => {
               dataset I built an artificial neural net that can compare, for
               example the loudness, bpm, etc, and (somewhat) accurately classify
               the genre
-              <a href="">here</a>.
+              <a href="https://github.com/s-munsey/ANN_MusicClassifier">here</a>
+              .
             </p>
             <h4>Technologies used include:</h4>
             <ul>
