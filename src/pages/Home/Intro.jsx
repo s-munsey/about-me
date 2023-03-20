@@ -11,7 +11,7 @@ const Intro = () => {
       <p>I'm a developer specialising in C#, Nodejs and Javascript.</p>
       <p>
         Currently, I'm building exciting things at{" "}
-        <a href="/" target="_blank">
+        <a href="https://www.alphagroup.com/" target="_blank" rel="noreferrer">
           Alpha Group
         </a>
         .
