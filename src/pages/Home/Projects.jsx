@@ -8,26 +8,6 @@ const Projects = () => {
         <h2>Projects I'm proud of:</h2>
         <article>
           <div className="text">
-            <h4>Current Project</h4>
-            <h3>Bookshelf</h3>
-            <p className="blackbox">
-              I love to read, so I'm working on an application, using the open
-              library api, that can track the books you have, your reading
-              progress, and how many books you've read each year. You can follow
-              its progress{" "}
-              <a href="https://github.com/s-munsey/Backend">here</a>.
-            </p>
-            <h4>Technologies used include:</h4>
-            <ul>
-              <li>React</li>
-              <li>Node</li>
-              <li>TypeScript</li>
-            </ul>
-          </div>
-          <img src={require("./../../assets/wip.png")} />
-        </article>
-        <article className="reverse">
-          <div className="text">
             <h4>App I published</h4>
             <h3>Pomodoro App</h3>
             <p className="blackbox">
@@ -48,7 +28,7 @@ const Projects = () => {
           </div>
           <img src={require("./../../assets/pomo_previewsq.png")} />
         </article>
-        <article>
+        <article className="reverse">
           <div className="text">
             <h4>University Project</h4>
             <h3>AI Music Classifier</h3>
@@ -66,6 +46,26 @@ const Projects = () => {
             </ul>
           </div>
           <img src={require("./../../assets/annsq.jpg")} />
+        </article>
+        <article>
+          <div className="text">
+            <h4>Current Project</h4>
+            <h3>Bookshelf</h3>
+            <p className="blackbox">
+              I love to read, so I'm working on an application, using the open
+              library api, that can track the books you have, your reading
+              progress, and how many books you've read each year. You can follow
+              its progress{" "}
+              <a href="https://github.com/s-munsey/Backend">here</a>.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>React</li>
+              <li>Node</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <img src={require("./../../assets/wip.png")} />
         </article>
       </section>
     </div>
