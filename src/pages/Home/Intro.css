@@ -1,26 +1,141 @@
 #intro {
-  padding: 4rem 1rem 10rem 1rem;
-  max-width: 1200px;
+  min-height: min(760px, calc(100vh - 80px));
+  padding: 6rem 1.5rem;
+  max-width: var(--content-width);
   margin: 0 auto;
+  display: grid;
+  align-items: center;
+  gap: 4rem;
 }
 
-#intro p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-#intro .name {
+#intro .intro-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0 0 1.5rem;
+  color: var(--muted);
   font-family: var(--font-header);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
 }
 
-.name span {
-  font-family: var(--font-main);
-  font-size: 4rem;
-  color: var(--ltblue);
+.status-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(196, 238, 118, 0.12);
+}
+
+#intro h1 {
+  max-width: 750px;
+  font-family: var(--font-header);
+  font-size: clamp(3.2rem, 8vw, 6.7rem);
+  font-weight: 600;
+  letter-spacing: -0.075em;
+  line-height: 0.98;
+}
+
+#intro h1 span {
   display: block;
+  color: var(--accent);
 }
 
 #intro h2 {
-  font-size: 4rem;
+  margin-top: 1.5rem;
   color: var(--white);
+  font-family: var(--font-header);
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+#intro .intro-description {
+  max-width: 490px;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.intro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.intro-actions .button span {
+  margin-left: 0.6rem;
+}
+
+.intro-text-link {
+  color: var(--cream);
+  font-family: var(--font-header);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.intro-text-link span {
+  margin-left: 0.3rem;
+  color: var(--accent);
+}
+
+.intro-portrait {
+  position: relative;
+  width: min(100%, 370px);
+  justify-self: center;
+}
+
+.intro-portrait::before {
+  position: absolute;
+  z-index: 0;
+  top: 1rem;
+  right: -1rem;
+  bottom: -1rem;
+  left: 1rem;
+  border: 1px solid rgba(196, 238, 118, 0.5);
+  border-radius: 48% 48% 18px 18px;
+  content: "";
+}
+
+.intro-portrait img {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 4 / 5;
+  border-radius: 48% 48% 18px 18px;
+  object-fit: cover;
+  object-position: center 32%;
+  filter: saturate(0.82);
+}
+
+.intro-portrait p {
+  position: relative;
+  z-index: 1;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  #intro {
+    grid-template-columns: minmax(0, 1fr) 330px;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  #intro {
+    padding: 4.5rem 1.25rem;
+    gap: 3rem;
+  }
+
+  .intro-portrait {
+    width: min(76%, 300px);
+  }
 }

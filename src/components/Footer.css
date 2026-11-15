@@ -1,7 +1,7 @@
 footer {
+  padding: 2rem 1.5rem;
   font-family: var(--font-header);
-  font-size: 80%;
-  padding: 4rem 0;
+  font-size: 0.82rem;
 }
 
 footer h1 a {
@@ -16,20 +16,35 @@ footer ul {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 footer li:first-child {
   flex-basis: 100%;
   text-align: center;
+  color: var(--muted);
 }
 
 footer a {
-  color: var(--white);
+  color: var(--muted);
   text-decoration: none;
   display: block;
+  transition: color 160ms ease;
 }
 
 footer a:hover {
-  color: var(--ltblue);
+  color: var(--accent);
+}
+
+@media (min-width: 700px) {
+  footer ul {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+
+  footer li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+  }
 }

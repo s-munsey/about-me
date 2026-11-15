@@ -5,11 +5,12 @@ const Contact = () => {
   return (
     <div className="section-dkblue">
       <section id="contact">
-        <h3>Contact Me</h3>
-        <p>I'm always interested in hearing about new oportunities.</p>
+        <p className="contact-eyebrow">Have a project in mind?</p>
+        <h2>Let’s make something useful.</h2>
+        <p>I'm always interested in hearing about new opportunities.</p>
         <p>
           <a className="button" href="mailto:s_munsey@live.com">
-            Email Me
+            Say hello <span aria-hidden="true">↗</span>
           </a>
         </p>
       </section>

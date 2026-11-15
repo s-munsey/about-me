@@ -1,12 +1,15 @@
 :root {
-  --black: #010326;
-  --dkblue: #011126;
-  --ltblue: #2d4459;
-  --cream: #d9d0c5;
-  --white: #f2eadf;
-  --font-size: 1.3rem;
-  --font-header: "Ultra", serif;
-  --font-main: "PT Serif", serif;
+  --black: #121710;
+  --dkblue: #1b2419;
+  --ltblue: #64734b;
+  --cream: #f2f1e9;
+  --white: #fbfaf6;
+  --accent: #c4ee76;
+  --muted: #a9ad9f;
+  --font-size: 1rem;
+  --font-header: "Space Grotesk", sans-serif;
+  --font-main: "DM Sans", sans-serif;
+  --content-width: 1160px;
 }
 
 html {
@@ -26,6 +29,8 @@ body {
   background-color: var(--black);
   color: var(--cream);
   font-size: var(--font-size);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -35,14 +40,29 @@ h3 {
 }
 
 a {
-  color: var(--ltblue);
+  color: inherit;
 }
 
 a:hover {
-  color: var(--white);
-  text-decoration: none;
+  color: var(--accent);
 }
 
 img {
   width: 100%;
+  display: block;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--black);
+  background: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }

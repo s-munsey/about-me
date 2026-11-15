@@ -26,7 +26,10 @@ const Projects = () => {
               <li>C</li>
             </ul>
           </div>
-          <img src={require("./../../assets/pomo_previewsq.png")} />
+          <img
+            src={require("./../../assets/pomo_previewsq.png")}
+            alt="Preview of Shaun's Pomodoro app"
+          />
         </article>
         <article className="reverse">
           <div className="text">
@@ -36,7 +39,7 @@ const Projects = () => {
               Another passion of mine is music, and using the million song
               dataset I built an artificial neural net that can compare, for
               example the loudness, bpm, etc, and (somewhat) accurately classify
-              the genre
+              the genre{" "}
               <a href="https://github.com/s-munsey/ANN_MusicClassifier">here</a>
               .
             </p>
@@ -45,27 +48,20 @@ const Projects = () => {
               <li>Python</li>
             </ul>
           </div>
-          <img src={require("./../../assets/annsq.jpg")} />
+          <img
+            src={require("./../../assets/annsq.jpg")}
+            alt="Visualization from the AI music classifier project"
+          />
         </article>
         <article>
           <div className="text">
             <h4>Current Project</h4>
-            <h3>Bookshelf</h3>
-            <p className="blackbox">
-              I love to read, so I'm working on an application, using the open
-              library api, that can track the books you have, your reading
-              progress, and how many books you've read each year. You can follow
-              its progress{" "}
-              <a href="https://github.com/s-munsey/Backend">here</a>.
-            </p>
-            <h4>Technologies used include:</h4>
-            <ul>
-              <li>React</li>
-              <li>Node</li>
-              <li>TypeScript</li>
-            </ul>
+            <h3>TBC</h3>
           </div>
-          <img src={require("./../../assets/wip.png")} />
+          <img
+            src={require("./../../assets/wip.png")}
+            alt="Work-in-progress illustration for the Bookshelf app"
+          />
         </article>
       </section>
     </div>

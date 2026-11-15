@@ -34,7 +34,7 @@ const About = () => {
               <li>Python</li>
             </ul>
           </div>
-          <img src={require("./../../assets/me.jpg")} />
+          <img src={require("./../../assets/me.jpg")} alt="Shaun Munsey" />
         </article>
       </section>
     </div>

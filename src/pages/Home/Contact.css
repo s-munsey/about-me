@@ -1,14 +1,36 @@
 #contact {
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 6rem 1.5rem;
+  max-width: 720px;
 }
 
-#contact h3 {
-  color: var(--cream);
-  font-size: 2rem;
+#contact .contact-eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+#contact h2 {
+  color: var(--white);
+  font-family: var(--font-header);
+  font-size: clamp(2.3rem, 6vw, 4rem);
+  letter-spacing: -0.07em;
+  line-height: 1.05;
+}
+
+#contact > p:not(.contact-eyebrow) {
+  color: var(--muted);
 }
 
 #contact p:last-child {
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+#contact .button span {
+  margin-left: 0.5rem;
 }

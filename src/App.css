@@ -1,9 +1,9 @@
 .section-ltblue {
-  background-color: var(--ltblue);
+  background-color: var(--dkblue);
 }
 
 .section-dkblue {
-  background-color: var(--dkblue);
+  background-color: var(--black);
 }
 
 .section-black {
@@ -16,30 +16,40 @@
 }
 
 .section-cream {
-  background-color: var(--cream);
-  color: var(--black);
+  background-color: var(--dkblue);
+  color: var(--cream);
 }
 
 .gradient {
-  background: rgb(1, 17, 38);
+  height: 1px;
   background: linear-gradient(
     90deg,
-    rgba(1, 17, 38, 1) 0%,
-    rgba(242, 234, 223, 1) 100%
+    transparent,
+    rgba(242, 241, 233, 0.16),
+    transparent
   );
-  height: 2px;
 }
 
 .button {
-  background-color: var(--cream);
-  padding: 0.3rem;
-  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);
+  padding: 0.75rem 1.15rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
   color: var(--black);
   font-family: var(--font-header);
+  font-size: 0.9rem;
+  font-weight: 700;
   text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease,
+    transform 160ms ease;
 }
 
 .button:hover {
-  color: var(--ltblue);
+  color: var(--black);
   background-color: var(--white);
+  border-color: var(--white);
+  transform: translateY(-2px);
 }
